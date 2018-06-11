@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/*
+Центральный контейнер приложения
+ */
+
+.box {
+
+  text-align: center;
+  margin: 25px auto;
+  background-color: aqua;
+  border-radius: 10px;
+  border:solid 3px #222222;
+  height: 100px;
+  width: 300px;
+ }
+
+/*
+Заголовок задачи
+ */
+
+.text {
+
+  margin: 10px auto 3px;
+  color: darkblue;
+  font-size: 20px;
+
+
+}
+
+/*
+Кнопка редактирования задачи
+ */
+
+button.btn-light {
+
+  text-decoration:none;
+  text-align:center;
+  padding:11px 11px;
+  border:solid 1px #004F72;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius: 4px;
+  font:14px Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#E5FFFF;
+  background-color:#3BA4C7;
+  margin: 3px;
+
+}
+
+/*
+Кнопка удаления задачи
+ */
+
+button.btn-red {
+
+  text-decoration:none;
+  text-align:center;
+  padding:11px 11px;
+  border:solid 1px #004F72;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius: 4px;
+  font:14px Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#E5FFFF;
+  background-color:red;
+  margin: 3px;
+
+}
+
+
+
